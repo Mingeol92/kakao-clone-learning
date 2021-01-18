@@ -1,0 +1,15 @@
+.screen-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 40px 20px 10px 20px;
+}
+
+.screen-header__title {
+  font-size: 30px;
+  font-weight: 800;
+}
+
+.screen-header .fa-music {
+  margin: 0px 10px;
+}
