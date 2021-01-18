@@ -2,7 +2,8 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin: 40px 20px 10px 20px;
+
+  padding: var(--horizontal-space);
 }
 
 .screen-header__title {
@@ -10,6 +11,6 @@
   font-weight: 800;
 }
 
-.screen-header .fa-music {
-  margin: 0px 10px;
+.screen-header__icons span {
+  margin-left: 10px;
 }
